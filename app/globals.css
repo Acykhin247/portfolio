@@ -1,0 +1,6 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root{--bg:#FAF9F7;--surface:#FFFFFF;--fg:#22262B;--muted:#5F6670;--line:#E4E1DC;--accent:#0F5C5C}
+:root.dark{--bg:#15181B;--surface:#1D2126;--fg:#ECEAE6;--muted:#A0A7AF;--line:#2E343B;--accent:#5FB3B0}
+body{background:var(--bg);color:var(--fg)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
