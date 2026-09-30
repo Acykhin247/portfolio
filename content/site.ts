@@ -1,7 +1,7 @@
 // Edit this file to change name, links, skills and status. Empty links are hidden.
 export const site = {
   name: "Clement Yaw Amegashie",
-  url: "https://portfolio-a4kf00s7k-acykhin247s-projects.vercel.app", // TODO: your real domain
+  url: "https://amegashie-clement-yaw-portfolio.vercel.app", // TODO: your real domain
   headline: "Turning data into decisions, systems into solutions.",
   intro: "I turn messy data into decisions people can act on. Information Technology student at UPSA, Accra, working across analytics, dashboards, databases and automation.",
   location: "Accra, Ghana",
