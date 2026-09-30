@@ -6,7 +6,7 @@ import { site } from "@/content/site";
 import "./globals.css";
 const plex = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600"], variable: "--font-plex" });
 export const metadata: Metadata = { metadataBase: new URL(site.url), title: { default: `${site.name} — Data & Technology`, template: `%s | ${site.name}` }, description: site.intro, openGraph: { title: site.name, description: site.intro, type: "website" } };
-const nav = [["About", "/about"], ["Projects", "/projects"], ["Resume", "/resume"], ["Contact", "/contact"]];
+const nav = [["About", "/about"], ["Projects", "/projects"], ["Certificates", "/certificates"], ["Resume", "/resume"], ["Contact", "/contact"]];
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (<html lang="en" suppressHydrationWarning><body className={`${plex.variable} font-sans antialiased`}>
     <script dangerouslySetInnerHTML={{ __html: `try{var t=localStorage.getItem("theme");if(t==="dark"||(!t&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("dark")}catch(e){}` }} />
